@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastermind", "Mastermind\Mastermind.csproj", "{DC83FD6A-6232-4078-8387-E6B8B6268152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind", "Mastermind\Mastermind.csproj", "{DC83FD6A-6232-4078-8387-E6B8B6268152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{246A3081-CA49-4205-AAAD-D35AA1FE67A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DC83FD6A-6232-4078-8387-E6B8B6268152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC83FD6A-6232-4078-8387-E6B8B6268152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC83FD6A-6232-4078-8387-E6B8B6268152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246A3081-CA49-4205-AAAD-D35AA1FE67A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246A3081-CA49-4205-AAAD-D35AA1FE67A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246A3081-CA49-4205-AAAD-D35AA1FE67A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246A3081-CA49-4205-AAAD-D35AA1FE67A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

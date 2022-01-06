@@ -11,7 +11,7 @@ namespace Mastermind
             //Console.WriteLine("Hello World!");
             var code = new List<CodePeg>();
             code.Add(CodePeg.White);
-            code.Add(CodePeg.Blue);
+            code.Add(CodePeg.Yellow);
             code.Add(CodePeg.Green);
             code.Add(CodePeg.Black);
             MastermindGame m = new MastermindGame(code);
@@ -19,10 +19,10 @@ namespace Mastermind
             var result = new List<ResultPeg>();
 
             var guess = new List<CodePeg>();
-            guess.Add(CodePeg.Blue);
+            guess.Add(CodePeg.White);
             guess.Add(CodePeg.Red);
-            guess.Add(CodePeg.Green);
-            guess.Add(CodePeg.Black);
+            guess.Add(CodePeg.Yellow);
+            guess.Add(CodePeg.Yellow);
             result = m.GetHints(guess);
             foreach(var res in result)
             {
